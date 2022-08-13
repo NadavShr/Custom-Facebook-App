@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BasicFacebookFeatures.Src.Forms.FormAddPageCategory">
+    <Position X="13.75" Y="9.25" Width="1.5" />
+    <Members>
+      <Field Name="buttonSave" Hidden="true" />
+      <Method Name="buttonSave_Click" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="FormAddPageCategory" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="TextBoxCategoryName" Hidden="true" />
+      <Method Name="TextBoxCategoryName_TextChanged" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAACAAABAAAADAAAACAAAAAAAAMAAAQAAAAAA=</HashCode>
+      <FileName>Src\Forms\FormAddPageCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.Form" Collapsed="true">
+    <Position X="6.75" Y="5.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="System.Windows.Forms.Form.ControlCollection" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BasicFacebookFeatures.Src.Forms.FormChangePageCategory">
+    <Position X="15.5" Y="9.25" Width="1.75" />
+    <Members>
+      <Field Name="buttonSaveChanges" Hidden="true" />
+      <Method Name="buttonSaveChanges_Click" Hidden="true" />
+      <Field Name="comboBoxAllCategory" Hidden="true" />
+      <Method Name="comboBoxAllCategory_SelectedIndexChanged" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="FormChangePageCategory" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>GAAAAAAEAKAgABAAAACAAAAGAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Src\Forms\FormChangePageCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicFacebookFeatures.FormLogin">
+    <Position X="6.5" Y="9.25" Width="1.5" />
+    <Members>
+      <Field Name="buttonLogin" Hidden="true" />
+      <Method Name="buttonLogin_Click" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="FormLogin" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="labelWelcome" Hidden="true" />
+      <Method Name="login" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAEIAAAAACAAAAAAACCAAAASAAAAAAAAAAAAQAAAEAA=</HashCode>
+      <FileName>Src\Forms\FormLogin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicFacebookFeatures.FormMain">
+    <Position X="4.25" Y="9.25" Width="2" />
+    <Members>
+      <Field Name="buttonAddCategory" Hidden="true" />
+      <Method Name="buttonAddCategory_Click" Hidden="true" />
+      <Field Name="buttonAddPost" Hidden="true" />
+      <Method Name="buttonAddPost_Click" Hidden="true" />
+      <Field Name="buttonFilterPagesByCategory" Hidden="true" />
+      <Method Name="buttonFilterPagesByCategory_Click" Hidden="true" />
+      <Field Name="buttonLogout" Hidden="true" />
+      <Method Name="buttonLogout_Click" Hidden="true" />
+      <Field Name="buttonPlaySlideShow" Hidden="true" />
+      <Method Name="buttonPlaySlideShow_Click" Hidden="true" />
+      <Field Name="buttonRefreshApp" Hidden="true" />
+      <Method Name="buttonRefreshApp_Click" Hidden="true" />
+      <Field Name="checkedListBoxCategoriesFilter" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="flowLayoutPanelAlbums" Hidden="true" />
+      <Field Name="flowLayoutPanelFriends" Hidden="true" />
+      <Field Name="flowLayoutPanelPages" Hidden="true" />
+      <Field Name="flowPosts" Hidden="true" />
+      <Method Name="FormMain" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="labelBirthdate" Hidden="true" />
+      <Field Name="labelFacebook" Hidden="true" />
+      <Field Name="labelFullName" Hidden="true" />
+      <Field Name="labelLocation" Hidden="true" />
+      <Field Name="m_fetchPosts" Hidden="true" />
+      <Method Name="OnShown" Hidden="true" />
+      <Field Name="pictureBoxUserPicture" Hidden="true" />
+      <Method Name="reloadApp" Hidden="true" />
+      <Field Name="tabControlMain" Hidden="true" />
+      <Field Name="tabPage1" Hidden="true" />
+      <Field Name="tabPage2" Hidden="true" />
+      <Field Name="tabPage3" Hidden="true" />
+      <Field Name="tabPage4" Hidden="true" />
+      <Field Name="textBoxAddPost" Hidden="true" />
+      <Method Name="updateActivationFilters" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>CBCAAUEgICyBQASMIgCAAAgDDAASDgASAAIARAEpAAA=</HashCode>
+      <FileName>Src\Forms\FormMain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicFacebookFeatures.FormPicturs">
+    <Position X="0.5" Y="9.25" Width="2.25" />
+    <Members>
+      <Field Name="buttonAddComment" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="flowLayoutPanelPicturs" Hidden="true" />
+      <Method Name="FormPicturs" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Method Name="loadChoosenPicture" Hidden="true" />
+      <Method Name="PanelPhoto_pictureClicked" Hidden="true" />
+      <Field Name="pictureBoxChoosenPicture" Hidden="true" />
+      <Field Name="richTextBoxComment" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AgAACAAIACEAACAAAACAAADCAAAAAAAAAACAAAAAACA=</HashCode>
+      <FileName>Src\Forms\FormPicturs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicFacebookFeatures.FormPostComments">
+    <Position X="8.25" Y="9.25" Width="2.75" />
+    <Members>
+      <Field Name="buttonAddComment" Hidden="true" />
+      <Method Name="buttonAddComment_Click" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="flowLayoutPanelComments" Hidden="true" />
+      <Method Name="FormPostComments" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="richTextBoxComment" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAACAAAAiAAAASAAAAAAAAAAAFAAAAgCA=</HashCode>
+      <FileName>Src\Forms\FormPostComments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicFacebookFeatures.Src.Forms.FormAlbumSlideShow">
+    <Position X="11.25" Y="9.25" Width="2" />
+    <Members>
+      <Field Name="buttonLoadAlbum" Hidden="true" />
+      <Method Name="buttonLoadAlbum_Click" Hidden="true" />
+      <Field Name="buttonPlayStop" Hidden="true" />
+      <Method Name="buttonPlayStop_Click" Hidden="true" />
+      <Field Name="comboBoxChooseAlbum" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="FormAlbumSlideShow" Hidden="true" />
+      <Method Name="initComboBoxAlbumsNames" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="labelChooseAlbum" Hidden="true" />
+      <Field Name="labelSpeed" Hidden="true" />
+      <Field Name="pictureBoxAlbumCover" Hidden="true" />
+      <Field Name="pictureBoxSlideShow" Hidden="true" />
+      <Method Name="radioButton_CheckedChanged" Hidden="true" />
+      <Field Name="radioButtonX1" Hidden="true" />
+      <Field Name="radioButtonX2" Hidden="true" />
+      <Field Name="radioButtonX3" Hidden="true" />
+      <Method Name="resetSlideShowPictures" Hidden="true" />
+      <Field Name="SlideShowTimer" Hidden="true" />
+      <Method Name="slideShowTimer_Tick" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAUEAAAAACkAAIAgQADAAAACcCAAIAAACAAgQAAAAEI=</HashCode>
+      <FileName>Src\Forms\FormSlideShow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicFacebookFeatures.BasePanel" Collapsed="true">
+    <Position X="29.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Src\Panels\BasePanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.Panel" Collapsed="true">
+    <Position X="32" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BasicFacebookFeatures.PanelAlbum" Collapsed="true">
+    <Position X="33.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Src\Panels\PanelAlbum.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicFacebookFeatures.Panels.PanelComment" Collapsed="true">
+    <Position X="31.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Src\Panels\PanelComment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicFacebookFeatures.Panels.PanelFriend" Collapsed="true">
+    <Position X="24.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Src\Panels\PanelFriend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicFacebookFeatures.Panels.PanelPage" Collapsed="true">
+    <Position X="26.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAABAAAAAAAAAQAAQIAA=</HashCode>
+      <FileName>Src\Panels\PanelPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicFacebookFeatures.Panels.PanelPhoto" Collapsed="true">
+    <Position X="28" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAACAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Src\Panels\PanelPhoto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicFacebookFeatures.PanelPost" Collapsed="true">
+    <Position X="29.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAgAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Src\Panels\PanelPost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicFacebookFeatures.Program">
+    <Position X="27.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Src\Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicFacebookFeatures.WinFormControlsGenarator">
+    <Position X="29.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAgAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Src\WinFormControlsGenarator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicFacebookFeatures.GUIManager">
+    <Position X="25" Y="4.25" Width="2" />
+    <Members>
+      <Method Name="GUIManager" Hidden="true" />
+      <Field Name="m_DoRetryApp" Hidden="true" />
+      <Field Name="m_UserLoggedIn" Hidden="true" />
+      <Method Name="onFormMainClosed" Hidden="true" />
+      <Method Name="resetApp" Hidden="true" />
+      <Method Name="startApp" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AABAAAAAQCAAiAAQAAAAAAABACACAAAAAAAIQAEAEAA=</HashCode>
+      <FileName>Src\GUIManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Delegate Name="BasicFacebookFeatures.LogOut" Collapsed="true">
+    <Position X="2.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Src\Forms\FormMain.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
