@@ -5,9 +5,9 @@
 A custom app of Facebook.
 Developed with C#, seperating Client side and Server side.
 
-## The app gives a minor "Facebook experience" and 2 extra fitchers not available on the regular facebook app:
+## The app gives a minor "Facebook experience" and 2 extra features not available on the regular facebook app:
  1. Slide show
-Loading all ofthe user's albums. Select one album and the album's photos start showing one by one.
+Loading all of the user's albums. Select one album and the album's photos start showing one by one.
 The user can change the speed of the changing images.
 
  2. Page filter
